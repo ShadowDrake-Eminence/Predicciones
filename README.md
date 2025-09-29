@@ -1,2 +1,2 @@
 # Predicciones
-Ejercicios de predicciones
+Ejercicio de prediccion de partido de futbol (No se como hacerlo la verdad)
