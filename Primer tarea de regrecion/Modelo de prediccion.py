@@ -1,3 +1,1 @@
-# Current content of 'Modelo de prediccion.py' goes here
-
-# Add your code implementation
+<content_of_the_file>
