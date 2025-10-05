@@ -21,8 +21,8 @@ rmse = np.sqrt(mean_squared_error(y_test, y_pred))
 r2 = r2_score(y_test, y_pred)
 
 print('--- Resultados del modelo de regresión lineal ---')
-print(f'Raíz del error cuadrático medio (RMSE): {rmse:.2f}')
-print(f'Coeficiente de determinación (R²): {r2:.2f}')
+print(f'Raíz del error cuadrático medio (RMSE): {rmse:.1f}')
+print(f'Coeficiente de determinación (R²): {r2:.1f}')
 print('\nPredicciones vs Valores reales:')
 for real, pred in zip(y_test, y_pred):
-    print(f'Real: {real:.2f} UF\tPredicción: {pred:.2f} UF')
+    print(f'Real: {real:.1f} UF\tPredicción: {pred:.1f} UF')
